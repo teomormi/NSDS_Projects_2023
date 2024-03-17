@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor DashBoard</title>
+    <link rel="stylesheet" href="../css/professor.css">
+    <script src="../js/professor.js" defer></script>
+    <script src="../js/utils.js" defer></script>
+</head>
+<body>
+
+<div class="header">
+    <h1>Professors Dashboard</h1>
+</div>
+
+<div class="courses-container">
+    <div class="course-list">
+        <h2>Courses</h2>
+        <ul id="courseList">
+
+        </ul>
+    </div>
+
+    <div class="course-details">
+        <h2>Assignment Details</h2>
+        <!-- add project -->
+        <div class="manage-project" id="div_add_project">
+            <input type="text" id="projectInput" placeholder="Enter project name">
+            <button onclick="addProject()">Add Project</button>
+        </div>
+        <div id="assignmentDetailsContent">
+            Select a course and assignment to see details and add evaluation.
+        </div>
+
+    </div>
+</div>
+
+<div id="popup">
+    <div id="closeBtn">&times;</div>
+    <p id="popupMessage"></p>
+</div>
+
+
+</body>
+</html>

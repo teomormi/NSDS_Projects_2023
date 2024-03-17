@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student DashBoard</title>
+    <link rel="stylesheet" href="../css/student.css">
+    <script src="../js/student.js" defer></script>
+    <script src="../js/utils.js" defer></script>
+</head>
+<body>
+
+<div class="header">
+    <h1>Student Dashboard</h1>
+</div>
+
+<div class="courses-container">
+    <div class="course-list">
+        <h2>Courses</h2>
+        <ul id="course_list">
+        </ul>
+        <div class="new-course-registration">
+            <h3>Register to a new course:</h3>
+            <select id="newCourseSelect">
+            </select>
+            <br>
+            <button onclick="registerToNewCourse()">Register</button>
+        </div>
+    </div>
+
+    <div class="course-details">
+        <h2>Assignment Details</h2>
+        <div id="assignmentDetailsContent">
+            Select a course and assignment to see details and add evaluation.
+        </div>
+        <div id="add_assignment">
+            <div class="file-upload">
+                <input type="file" id="fileUpload">
+                <label for="fileUpload">Choose File</label>
+                <div class="file-name" id="fileName"></div>
+            </div>
+            <div class="assignment-details">
+                <button onclick="submitAssignment()">Submit</button>
+            </div>
+        </div>
+        <div id="assignment_details"></div>
+    </div>
+</div>
+
+<div id="popup">
+    <div id="closeBtn">&times;</div>
+    <p id="popupMessage"></p>
+</div>
+
+
+</body>
+</html>

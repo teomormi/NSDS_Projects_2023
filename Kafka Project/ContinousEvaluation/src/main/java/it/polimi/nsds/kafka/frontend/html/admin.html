@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../css/admin.css">
+    <script src="../js/admin.js" defer></script>
+    <script src="../js/utils.js" defer></script>
+</head>
+<body>
+<div class="header">
+    <h1>Admin Dashboard</h1>
+</div>
+
+<div class="container">
+    <div class="sidebar">
+        <h2>Courses</h2>
+        <ul id="courseList">
+            <!-- course list will be added here -->
+        </ul>
+        <h4>Manage Courses</h4>
+        <div class="manageCourse">
+            <input type="text" id="courseInput" placeholder="Enter course name">
+            <button onclick="addCourse()">Add Course</button>
+            <button onclick="removeCourse()">Remove Course</button>
+        </div>
+    </div>
+
+    <div class="details">
+        <h2>Course Details</h2>
+        <div id="courseDetails" class="details-content">
+            Select a course to view details.
+        </div>
+    </div>
+</div>
+
+<div id="popup">
+    <div id="closeBtn">&times;</div>
+    <p id="popupMessage"></p>
+</div>
+
+
+</body>
+</html>

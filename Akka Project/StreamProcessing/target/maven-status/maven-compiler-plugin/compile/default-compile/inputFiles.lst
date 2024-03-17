@@ -1,0 +1,17 @@
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\pipeline\PipelineManager.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\pipeline\operator\OperatorAbstract.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\message\StartPipeline.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\message\Config.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\message\ReturnPipeline.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\pipeline\PipelineMain.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\utils\OperationType.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\message\KillActor.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\input\InputMain.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\input\InputManager.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\input\InputGenerator.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\pipeline\operator\AverageOperator.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\pipeline\operator\MinOperator.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\message\KeyValueMessage.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\message\CreatePipeline.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\pipeline\operator\MaxOperator.java
+C:\Users\matte\Desktop\StreamProcessing\src\main\java\com\utils\Operator.java
